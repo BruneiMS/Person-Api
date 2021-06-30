@@ -1,10 +1,9 @@
 package dto;
 
+import entity.Person;
+
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
-
-import entity.Person;
-import dto.PersonDTO;
 
 @Mapper(componentModel = "spring")
 public interface PersonMapper {

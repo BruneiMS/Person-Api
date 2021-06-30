@@ -2,6 +2,8 @@ package dto;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 import enums.PhoneType;
 import lombok.AllArgsConstructor;
